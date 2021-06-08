@@ -1,0 +1,29 @@
+{
+    "name": "blitsoftwares/laravel-states-and-cities",
+    "description": "País, cidades e estados. Com código IBGE Brasil. Com migrations, models, seeder, routes, config e views. SQL de dumps disponiveis na pasta 'sql'.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas R.Pasquetto",
+            "email": "lucas@blitsoft.com.br",
+            "homepage": "http://www.blitsoft.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+      "psr-4": {
+        "Blit\\StatesAndCities\\": "./src"
+      }
+    },
+    "extra": {
+      "laravel":{
+        "providers": [
+          "Blit\\StatesAndCities\\Providers\\StatesAndCitiesServiceProvider"
+        ]
+      }
+    }
+}
